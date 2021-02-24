@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	mod := elf.NewModule("hello/hello.o")
+	mod := elf.NewModule("hello/dummy-48.o")
 
 	err := mod.Load(nil)
 	if err != nil {
